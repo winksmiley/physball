@@ -30,7 +30,25 @@
             background-color:black;
             padding: 20px;
                 }
-        
+        * {
+    box-sizing: border-box;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+.col {
+    display: table-cell;
+    padding: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .col { 
+        display: block;
+        width: 100%;
+    }
+}
 
         
         
@@ -99,21 +117,7 @@
   background-color: #555;
   color: #de0aa5;
 }
-        .city {
-        text-align: center;
-  display: inline-block;
-   margin: 10px;
-   padding: 10px;
-   max-width: 300px;
-   height: 300px;
-   border: 1px solid black;
-}
-        .header p{
-            display: block;
-        }
-        ul{
-            display: inline-block;
-        }
+
     </style>
     </head>
     <body>
@@ -129,46 +133,73 @@
                     1px -1px 0 #000,
                     -1px 1px 0 #000,
                      1px 1px 0 #000;">لم تعد مجرد لعبة!!</p>
-                <button  style="background-color: coral;width:150px;font-family: 'Amiri', serif;font-size: 18px; ">جرب بنفسك </button>
+                <button  style="background-color: coral;width:150px;font-family: 'Amiri', serif;font-size: 18px; "> جرب بنفسك </button>
             </div>
         </div>
         
-    <div class="header">  
-        <p > <h1 style="text-align: center;font-family: 'Oswald', sans-serif;"> PhysBall </h1><ul>
-        </p>
-        <li><p style="width:300px;font-size: 33px;text-align: center;margin-right: 50px;">
-        تطبيق مبتكر، حيث انه يوفر تجربة تعليمية وترفيهية متكاملة وفريدة من نوعها تجمع بين مزايا واهمية العلوم من ناحية والجانب التطبيقي في حياتنا اليومية من جهة والجانب الترفيهي واهتمامات الشباب من جهة اخرى    
-        </p> </li>
-        <li > <p> <h1> اكثر من مجرد تطبيق </h1> </p> </li>
-        <li><p style="width: 300px;font-size: 33px;text-align: center;margin-right: 50px;">
-    
-             PhysBall ليس مجرد تطبيق تعليمي ترفيهي مبتكر ، بل ان التطبيق تمد جزوره ليشمل امورا اكثر تعقيدا تتعلق بحياتنا
-        </p></li>
-        </ul>
+<div style="height: 70px;"></div>
+<div style="height: 170px; font-size: 38px; padding: 70px 0;text-align: center; color: black;background-color: crimson;">  تطبيق بسيط علمي وعملي وترفيهي !!</div>
+<div class="col-container">
+        <div class="col">
+            <h2 style="font-family:'Oswald', sans-serif; font-weight: bold;">PHASBALL</h2>
+            <p> اكثر من مجرد تطبيق </p>
+            <p> <strong style="color: crimson;font-family:'Oswald', sans-serif;">phaysball</strong>  مش  مجرد تطبيق مبتكر بيربط بين العلم والكورة </p>
+            <p> <strong style="color:  crimson;font-family:'Oswald', sans-serif;">phaysball</strong> هو الرابط الحي بين اهتماماتنا وتعليمنا وحياتنا اليومية </p>
+            <p> <strong style="color: crimson;font-family:'Oswald', sans-serif;">phaysball</strong> هو الجانب النظري والتطبيقي والترفيهي والمعرفي </p>
+        </div>
+        <div class="col">
+            <h2 style="font-family:'Oswald', sans-serif; font-weight: bold;color: red;">PHASBALL</h2>
+            <p> لم يعد العلم مملا بعد الان !!</p>
+            <p>  من متعة الكورة بنبني متعة العلم </p>
+            <p> ومن جدية العلم بنبني قيمة الكورة </p>
+            <p style="font-size: 22px;color:crimson;"> الان وبحق هي اكثر من مجرد لعبة </p>
+        </div>
+        <div class="col">
+            <h2 style="font-family:'Oswald', sans-serif; font-weight: bold;">PHASBALL</h2>
+            <p> معا نغير العالم للافضل </p>
+            <p> الكورة هي متعة البسطاء ماذا لو اصبحت علم البسطاء ؟؟ </p>
+            <p> الكورة بتغيرنا والعلم بيطورنا ومع بعض لن يكون للتعليم حدود  </p>
+            <p> نسعى لتعليم افضل واقل تعقيدا  </p>
+        </div>
     </div>
-<div class="city">
-  <h2>اختر ..</h2>
-  <p>London is the capital of England.</p>
-  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-</div>
 
-<div class="city">
-  <h2>اتعلم ..</h2>
-  <p>شوف تشكيلتك بتقولك ايه وحاول  تتعلم </p> 
-  <p>اللاعيبة هنا هما مدرسينك ، كل واحد له اسلوبه اللي  بيدل على قيمته في  الملعب وقيمته عند الجمهور  ،</p>
-</div>
+<div id="how" style="height: 70px;"></div>
+<div style="height: 90px; font-size: 38px; padding: 70px 0;text-align: center; color: black;background-color: crimson;">  كيف ؟؟ </div>
+<div class="col-container">
+        <div class="col">
+            <h2>اختر ..</h2>
+            <p> <a href="#" style="text-decoration: none;font-weight: bold; fo 18px;"> تصفح اللاعبين </a> </p>
+            <p> اختر التشكيلة التي تفضلها</p>
+            <p> كل فرد من افراد الفريق هيساعدك في انك تعرف معلومة علمية </p>
+            <p> كل فرد من افراد الفريق هيساعدك في انك تعرف معلومة في حياتك اليومية </p>
+        </div>
+        <div class="col">
+            <h2>تعلم ..</h2>
+            <p> تعرف على القيمة المعرفية لفريقك  </p>
+            <p> اعرف كيف تدار الاشياء كما تدار كرة القدم  </p>
+            <p>  اللاعبين هنا هم مدرسينك واسلوبهم في الكرة هو اسلوبهم في التدريس</p>
+            <p> اعرف المعلومات دي هتفيدك في ايه </p>
+        </div>
+        <div class="col">
+            <h2>   شاركنا ..</h2>
+            <p> انشر ما تعلمته وعلّم الاخرين  </p>
+            <p>   اظهر للعالم قيمة فريقك  </p>
+            <p> تحدى اصدقاء لمعرفة اي تشكيلة ذات قيمة اعلى </p>
+            <p> ساعدنا على التغيير  </p>
+        </div>
+    </div>
+<div style="height: 70px;"></div>
 
-<div class="city">
-  <h2>شاركنا العلم والفائدة </h2>
-  <p>اظهر للعالم قيمة فريقك </p>
-  <p>تحدى اصدقائك بالتشكيلة ، وابهرهم بالنتيجة .</p>
-</div>
-
-
-</div>
-    <div class="info-how" style="height: 1000px;"></div>
+<div style="height: 170px; font-size: 38px; padding: 70px 0;text-align: center; color: black;background-color: crimson;"> الكورة للجماهير..  العلم للجماهير .. القوة للجماهير</div>
+<div style="height: 70px;"></div>
+<div id="who" style="height: 400px; font-size: 38px; padding: 70px 0;text-align: center; color:  crimson;"> #من_اجل_الثانوية_العامة  
+        
+        <p style="font-size: 22px; color: black;"> معا نحمي دفعتين نتعلم صح نفهم صح </p>
+        <p style="font-size: 22px; color: black;"> تعلم كيفما تحب شعار اصبح حقيقة  </p>
+        <p style="font-size: 22px; color: black;"> معا نستطيع ان نتغلب على الدروس  الخصوصية</p>
+        </div>
     <div class="info-why"></div>
-    <div class="footer" style="text-align: center;background-color: black;">
+    <div class="footer" style=";background-color: black;">
         <p style="font-size: 24px;color: aliceblue;">  تابعونا على .. </p>
         
         <a href="https://www.facebook.com/bmeem27" class="fa fa-facebook"></a>
